@@ -22,6 +22,8 @@ PRODUCT_COPY_FILES += \
     vendor/redmi/begonia/proprietary/etc/permissions/vendor.xiaomi.hardware.mtdservice-V1.0-java-permission.xml:system/etc/permissions/vendor.xiaomi.hardware.mtdservice-V1.0-java-permission.xml \
     vendor/redmi/begonia/proprietary/etc/permissions/vendor.xiaomi.hardware.mtdservice-V1.1-java-permission.xml:system/etc/permissions/vendor.xiaomi.hardware.mtdservice-V1.1-java-permission.xml \
     vendor/redmi/begonia/proprietary/etc/permissions/vendor.xiaomi.hardware.vsimapp-V1.0-java-permission.xml:system/etc/permissions/vendor.xiaomi.hardware.vsimapp-V1.0-java-permission.xml \
+    vendor/redmi/begonia/proprietary/etc/init/init.vtservice.rc:system/etc/init/init.vtservice.rc \
+    vendor/redmi/begonia/proprietary/bin/vtservice:system/bin/vtservice \
     vendor/redmi/begonia/proprietary/framework/mediatek-ims-extension-plugin.jar:system/framework/mediatek-ims-extension-plugin.jar \
     vendor/redmi/begonia/proprietary/framework/mediatek-ims-legacy.jar:system/framework/mediatek-ims-legacy.jar \
     vendor/redmi/begonia/proprietary/framework/mediatek-ims-wwop-common.jar:system/framework/mediatek-ims-wwop-common.jar \
@@ -31,6 +33,12 @@ PRODUCT_COPY_FILES += \
     vendor/redmi/begonia/proprietary/framework/vendor.xiaomi.hardware.mtdservice-V1.0-java.jar:system/framework/vendor.xiaomi.hardware.mtdservice-V1.0-java.jar \
     vendor/redmi/begonia/proprietary/framework/vendor.xiaomi.hardware.mtdservice-V1.1-java.jar:system/framework/vendor.xiaomi.hardware.mtdservice-V1.1-java.jar \
     vendor/redmi/begonia/proprietary/framework/vendor.xiaomi.hardware.vsimapp-V1.0-java.jar:system/framework/vendor.xiaomi.hardware.vsimapp-V1.0-java.jar \
+    vendor/redmi/begonia/proprietary/lib/libimsma_adapt.so:system/lib/libimsma_adapt.so \
+    vendor/redmi/begonia/proprietary/lib/libimsma_rtp.so:system/lib/libimsma_rtp.so \
+    vendor/redmi/begonia/proprietary/lib/libimsma_socketwrapper.so:system/lib/libimsma_socketwrapper.so \
+    vendor/redmi/begonia/proprietary/lib/libsignal.so:system/lib/libsignal.so \
+    vendor/redmi/begonia/proprietary/lib/libsource.so:system/lib/libsource.so \
+    vendor/redmi/begonia/proprietary/lib/libvt_avsync.so:system/lib/libvt_avsync.so \
     vendor/redmi/begonia/proprietary/lib/libmtk_vt_service.so:system/lib/libmtk_vt_service.so \
     vendor/redmi/begonia/proprietary/lib/libmtk_vt_wrapper.so:system/lib/libmtk_vt_wrapper.so \
     vendor/redmi/begonia/proprietary/lib/libmtkaudio_utils.so:system/lib/libmtkaudio_utils.so \
